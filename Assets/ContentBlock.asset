@@ -1,0 +1,393 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 87c634d33705176469dcdb72a6b5da05, type: 3}
+  m_Name: ContentBlock
+  m_EditorClassIdentifier: 
+  _items:
+  - playerType: 0
+    id: 0
+    playerName: Roberto Baggio
+    playerInfo: Baggio was an iconic Italian footballer who lit up the domestic and
+      international scene with his guile and ability to create and score goals. At
+      the peak of his career, he won FIFA World Player of the Year in 1993. In total,
+      he scored 392 goals and won 2 Serie A titles. He failed to win a single top
+      award at the international level. The closest he came was at the 1994 World
+      Cup, when his Italy team lost to Brazil.
+    playerPhoto: {fileID: 21300000, guid: 3153856ddefa5a54096efe4698195088, type: 3}
+  - playerType: 0
+    id: 1
+    playerName: Romario
+    playerInfo: Romario is the third top scorer in football history, officially recognized
+      by FIFA. He was the star of the show when Brazil won the 1994 FIFA World Cup
+      and ended the year with the Ballon Dor award. Romario was very successful both
+      in Europe and in his native Brazil. His trophies include multiple participations
+      in the Spanish and Dutch championships, domestic cups, the World Cup with Brazil
+      and the Copa America (2 times).
+    playerPhoto: {fileID: 21300000, guid: ba147facd09090f45a6f9aa7e170658b, type: 3}
+  - playerType: 0
+    id: 2
+    playerName: Ferenc Puskas
+    playerInfo: "Ferenc Pusk\xE1s is considered one of the greatest players and greatest
+      striker to ever step onto a football field. As a striker, the Hungarian scored
+      162 goals in 123 international matches. In domestic championships he scored
+      514 goals in 529 matches. His brilliant performances led Los Blancos to five
+      consecutive league titles and three European Cups.\L\L"
+    playerPhoto: {fileID: 21300000, guid: 02c1924343f4b9644a1c72a3a77f1ed2, type: 3}
+  - playerType: 0
+    id: 3
+    playerName: Alfredo Di Stefano
+    playerInfo: He was known by the nickname "Blonde Arrow" due to his ability to
+      never miss his target. Alfredo Di Stefano changed the entire history of Madrid
+      and made the club his legacy. He scored 216 goals in 282 matches for Real Madrid.
+      Di Stefano's 49 goals in 58 matches became a record in the history of his performances
+      in European competition. Di Stefano was awarded the Ballon d'Or as European
+      Footballer of the Year in 1957 and 1959. Michel Platini also called Di Stefano
+      "a great among greats.
+    playerPhoto: {fileID: 21300000, guid: ea6e294fe92d8cd49957d269e330fc2b, type: 3}
+  - playerType: 0
+    id: 4
+    playerName: Gerd Muller
+    playerInfo: "A proper No.9 player widely known for his clinical finishing abilities.
+      A goal scoring phenomenon. His performance for both club and country is phenomenal.
+      At international level with West Germany he scored a total of 68 goals in 62
+      matches, and at club level with Bayern Munich he scored 365 goals in 427 Bundesliga
+      matches. M\xFCller received the Ballon d'Or in 1970 after leading West Germany
+      to victory at the World Cup."
+    playerPhoto: {fileID: 21300000, guid: 0c595fef206e0ca45a5dd4798421d886, type: 3}
+  - playerType: 0
+    id: 5
+    playerName: Ronaldo
+    playerInfo: Ronaldo is known as "The Phenomenon" and is also nicknamed R9. He
+      is an inspiration for the coming generation of strikers born. His personal
+      awards include three times FIFA World Player of the Year and two Ballon d'Or
+      awards. His immense pace, acceleration, dribbling and finishing make him unstoppable.
+      He won the FIFA World Player of the Year in 1996, becoming the youngest player
+      to win the award. Ronaldo played a total of 98 matches for the Brazilian national
+      team and scored 62 goals. He was just 17 years old when he was part of the
+      Brazil team that won the 1994 FIFA World Cup. He also won the 1997 Copa America.
+    playerPhoto: {fileID: 21300000, guid: 65e2e668e35c8e242ba5c0e0b169443e, type: 3}
+  - playerType: 0
+    id: 6
+    playerName: Cristiano Ronaldo
+    playerInfo: Ronaldo has broken all existing records for the number of goals scored.
+      He became the most goalscoring player in football history with 820 goals. He
+      also became the player with the most international goals with 115. During his
+      career, CR7 won 5 Ballons d'Or and three European Golden Boots. Additionally,
+      he became the 3rd player to win the Champions League 5 times in his career.
+      With Portugal he won the EuroCup in 2016 and the Nations League in 2020. Cristiano
+      Ronaldo is the greatest European footballer of the long period from the late
+      2000s to the present, and one of the greatest footballers of all time. After
+      moving to Real Madrid, he became the most expensive player in the history of
+      football.
+    playerPhoto: {fileID: 21300000, guid: cfc26691d1067fc4c808bce7c7425f2e, type: 3}
+  - playerType: 0
+    id: 7
+    playerName: Lionel Messi
+    playerInfo: 7-time Ballon d'Or winner, 5-time European scoring boot winner, there
+      is no player better or taller than Leo Messi. The wizard has currently scored
+      761 goals and is the fastest player to reach this milestone. He won the 2021
+      Copa America and won all the awards including MVP and Player of the Tournament
+      award. Previously, he led Argentina to 4 finals, including the World Cup final
+      in 2014. Messi is the most influential player at dominant Barcelona, the only
+      club to be crowned three-time European champions twice. In the 2011-2012 season,
+      Messi scored 73 goals in 60 matches for the club and is the highest goalscorer
+      of all time in a single season. He holds the record for the most hat-tricks
+      in the history of a Spanish football club - 32. Messi also holds the record
+      for the most goals in a year for the Argentina national team - 12. Leo holds
+      the record for the most hat-tricks in the history of the European Cup/UEFA
+      Champions League - nine.
+    playerPhoto: {fileID: 21300000, guid: e54c444d4e9577e4294057789392ed38, type: 3}
+  - playerType: 0
+    id: 8
+    playerName: Pele
+    playerInfo: "The greatest of them all, and noted as \"Fifa's Greatest\". Pele
+      is the greatest striker of all time. He was one of the most prosperous and
+      famous sports figures of the 20th century. Pel\xE9 was named the best player
+      of the century by the International Federation of Football History and Statistics
+      (IFFHS) and was one of two collective winners of the FIFA Player of the Century
+      competition. His total of 1,279 goals in 1,363 matches is listed in the Guinness
+      Book of World Records. He spent most of his career with Santos, winning silver
+      medals almost every year. Pele is also the only player in history to win three
+      World Cups. He played a total of 92 matches for the Brazilian national team
+      and scored 77 goals."
+    playerPhoto: {fileID: 21300000, guid: 112e79ae20543d540846675f5847419e, type: 3}
+  - playerType: 1
+    id: 0
+    playerName: Clarence Seedorf
+    playerInfo: Seedorf is the only player in history to win the Champions League
+      for three different clubs. In 1995, he won the trophy with Ajax when he was
+      20 years old. Three years later, Clarence won the Champions League wearing
+      a Real Madrid jersey. Seedorf was not a leading player at these clubs, but
+      after moving to Milan in 2002, the Dutchman finally received recognition. Seedorf
+      became a key figure in Milan. The more attacking Clarence, along with prop
+      Gattuso and dispatcher Pirlo, created the most powerful trio in Italy, which
+      dominated the field for 9 years. At Milan, Seedorf won the Champions League
+      Cup twice more and won two championships.
+    playerPhoto: {fileID: 21300000, guid: 57679e689328f3d4e8fc64eb07404eb9, type: 3}
+  - playerType: 1
+    id: 1
+    playerName: Andrea Pirlo
+    playerInfo: 'Pirlo is one of the best controllers in the history of football.
+      He had excellent vision of the field and an accurate pass, which allowed him
+      to make aggravating passes even from inside the penalty area. Initially, Andrea
+      played as an attacking midfielder, but could not prove himself - he lacked
+      a powerful blow and speed. In 2001, Pirlo moved to Milan, where Carlo Ancelotti
+      moved him into the holding zone. In this position, the Italian became the main
+      player of the team: the distance from the opponent allowed him to better realize
+      his skill of accurate long-range passing. With Milan, Pirlo became Italian
+      champion twice and won two Champions League cups.'
+    playerPhoto: {fileID: 21300000, guid: d4502ca9c59b55043a8f42233b69ef35, type: 3}
+  - playerType: 1
+    id: 2
+    playerName: Xavi
+    playerInfo: 'Xavi is a Barcelona legend and one of the best midfielders in the
+      history of the Spanish national team. He has won 25 different titles with Barcelona,
+      including 8 championships and four Champions League cups. With the national
+      team, he won three tournaments in a row: two European Championships and a World
+      Championship. Xavi spent almost his entire career at Barcelona. Here he played
+      767 matches, scored 85 goals and gave 185 assists. During Pep Guardiola''s
+      tenure as manager, Xavi became a key component of the iconic tiki-taka style
+      of play where the most important thing was to move and hold the ball quickly
+      and prevent opponents from getting close to him.'
+    playerPhoto: {fileID: 21300000, guid: 53e637081dfa14740a186808ba48621a, type: 3}
+  - playerType: 1
+    id: 3
+    playerName: "Andr\xE9s Iniesta"
+    playerInfo: 'Iniesta is the second key player of his generation for Barcelona
+      and the Spanish national team. He played as long at the club as Xavi: he came
+      three years earlier and left three years later. During this time, Andres won
+      32 club trophies, and with the national team he won two European champion titles
+      and one world champion. Iniesta and Xavi were rarely rated separately, but
+      their playing styles were somewhat different. Iniesta is a more attacking player.
+      For club and country, he was responsible for moving the ball in the final third
+      and connecting with finishing combinations. Xavi is a more defensive player
+      who was most often found deep in the field and accelerated the game from there.'
+    playerPhoto: {fileID: 21300000, guid: 1ea938e677faddb4a8a972ea40f95cc5, type: 3}
+  - playerType: 1
+    id: 4
+    playerName: Michel Platini
+    playerInfo: 'Platini is the only football player besides Messi and Ronaldo who
+      received three Golden Balls. During his career, he played in only three clubs,
+      and in each of them he scored more than 50 goals - despite the fact that he
+      played only as a midfielder. With Platini''s help, the average Nancy consistently
+      ranked at the top of the championship and won the French Cup for the first
+      time - Michel scored the winning goal. After Nancy, the Frenchman played in
+      Saint-Etienne, where he became the champion of France, but he truly blossomed
+      in the Italian Juventus. As part of the Turin team, Platini became the champion
+      of Italy twice, won the country''s Cup and won three international tournaments:
+      the Cup Winners'' Cup, the European Cup and the Intercontinental Cup.'
+    playerPhoto: {fileID: 21300000, guid: d897727ede46d884f8532217fe879eb3, type: 3}
+  - playerType: 1
+    id: 5
+    playerName: "Zin\xE9dine Zidane"
+    playerInfo: Zinedine is one of the best midfielders and football players in general
+      in the history of football. He was named FIFA's best player in the world three
+      times, won the Ballon d'Or and was included in the list of the best football
+      players of the 20th century. Zidane became the best football player in the
+      history of France, and after his playing career, he was the first to win three
+      Champions Leagues in a row. Zizou gained the greatest fame while playing for
+      Juventus in Turin and Real Madrid in Spain. At Juventus, he reached the Champions
+      League final three times and won once, and won two Italian champion titles.
+      At Real Madrid, Zidane became a key figure - in order to better use the Frenchman,
+      team coach Vicente Del Bosque even changed the formation. In the 2001/02 season,
+      Zinedine's goal was the winning goal in the Champions League final, and a year
+      later Zizou led the club to the championship in Spain.
+    playerPhoto: {fileID: 21300000, guid: f7c8372a7ba6eb74a8342935b8c68fdb, type: 3}
+  - playerType: 2
+    id: 0
+    playerName: Paolo Maldini
+    playerInfo: Italy is famous for its talented defenders, but to this day no one
+      from this country can stand on par with the undeniable talent of Paolo Maldini.
+      The player nicknamed "Capitano" became a true legend for Milan, a club for
+      which he played 902 times in official matches. With the Rossoneri, Paolo won
+      24 trophies, including 5 victories in the Champions League and 7 in Serie A.
+      With the Italian national team, Maldini did not win the main trophies (European
+      Championship and World Cup), but his benefit for the Squadra Azzurra is priceless.
+    playerPhoto: {fileID: 21300000, guid: a59ad57ac7608fc4bbc1ea1b3afe3b27, type: 3}
+  - playerType: 2
+    id: 1
+    playerName: Alessandro Nesta
+    playerInfo: "Calm and reliable are two words that immediately come to mind when
+      talking about Italian defender Alessandro Nesta. The legendary Pele himself
+      said that in order for the Brazilian team to win with ease, it is necessary
+      that they have Nesta in defense. But alas, Alessandro, nicknamed \u201CThe
+      Boss,\u201D did not play for the Brazilian national team, but for the Italian
+      national team, with which he won gold at the 2006 World Cup. Nesta had a brilliant
+      career, both at club and national team level. The defender began his great
+      journey with Lazio, and continued it in Milan. It is worth saying that with
+      both clubs the footballer won Serie A, and with the Rossoneri he has already
+      won the Champions League twice."
+    playerPhoto: {fileID: 21300000, guid: 2b43f1cd6bbd5214e9d6ca3c85fb240b, type: 3}
+  - playerType: 2
+    id: 2
+    playerName: Roberto Carlos
+    playerInfo: "Roberto Carlos is a Brazilian who has greatly influenced the functionality
+      of full-backs. You could say he revolutionized this position. His incredible
+      speed, pace, desire to constantly run forward and grab the ball from the opponent\u2019s
+      feet simply cannot go unnoticed and unrewarded. Today, Carlos is in the TOP
+      10 of the best defenders in the world in the history of football, and if we
+      look specifically at the left flank, then here he is practically unrivaled
+      to this day, if you do not take Maldini into account. Roberto Carlos had an
+      excellent club career and truly demonstrated his talent in Real Madrid, with
+      whom he won 4 Examples and 3 Champions League Cups. Little Carlos also achieved
+      no less success in the Brazilian national team. The defender became the 2002
+      world champion and in the same year took 2nd place in the Golden Ball nomination."
+    playerPhoto: {fileID: 21300000, guid: 8d4c7b98151a6d74b8800ea13c01e850, type: 3}
+  - playerType: 2
+    id: 3
+    playerName: Philipp Lahm
+    playerInfo: "Philipp Lahm is one of the most famous and popular German football
+      players, who is remembered throughout the world for his consistent fantastic
+      performance. Lahm had an excellent career playing for Bayern Munich at the
+      club level, and the footballer also left international football at the peak
+      of his popularity, winning the 2014 World Cup with the Bundesteam team led
+      by Joachim L\xF6w. Some consider Lahm to be the best right-back in the history
+      of football, although the \u201Clittle giant\u201D has a worthy competitor
+      in this position in Cafu from Brazil. Philipp Lahm had excellent ball control,
+      excellent speed and field vision. He was considered a universal football player,
+      as he could play on the defensive flank and even in the defensive zone. Lam
+      was, in his own way, the team\u2019s dispatcher, and everyone respected him
+      - the German had many leadership qualities."
+    playerPhoto: {fileID: 21300000, guid: db56531fd5c19874199de4263f0d510b, type: 3}
+  - playerType: 2
+    id: 4
+    playerName: Carles Puyol
+    playerInfo: "Many people know this guy by his nicknames \u201CTarzan\u201D, \u201CLionheart\u201D
+      or \u201CShark\u201D. Carles Puyol spent his entire career in the Catalan Barcelona,
+      where he became one of the public's favorites and helped the Blaugranas achieve
+      great heights in the domestic and international arenas. Puol was a brave, selfless
+      and intelligent defender. The coaches loved the Spaniard for his ability to
+      organize the play of his partners in defense - he was the leader and commander
+      of the team, who instilled fear in all the opposing forwards. Puyol was simply
+      superb in terms of tactical strength, playing on the second level and tackling
+      the ball. Carles performed best in central defense, but his versatility also
+      allowed him to play on the right and left flanks."
+    playerPhoto: {fileID: 21300000, guid: b131ab0e2f0d0ff4eba2d8022b3b6140, type: 3}
+  - playerType: 2
+    id: 5
+    playerName: Sergio Ramos
+    playerInfo: "In 2007, at the age of 19, Sergio Ramos moved from Sevilla to Real
+      Madrid for \u20AC27 million, which at that time was a record for young Spanish
+      players. As a result, this transfer became one of the most successful in the
+      history of the \u201Croyal club\u201D. Ramos is a real find for coaches, because
+      he is a versatile defender who is reliable in the back, but also brings a lot
+      of value in front. Sergio loves to connect to attacks and on the second floor
+      this monster simply cannot be outplayed. During his career, the center back
+      scored many important goals and today he is one of the most productive defenders
+      in the world. It is worth noting that the football player scores goals not
+      only from the game, but also often from the penalty spot."
+    playerPhoto: {fileID: 21300000, guid: 605e578ef8efbfb4dac6854dfa24ee21, type: 3}
+  - playerType: 3
+    id: 0
+    playerName: Edwin van der Sar
+    playerInfo: Edwin van der Sar, who was four times Europe's best goalkeeper, had
+      a distinguished career at the club. It all started at Ajax Amsterdam, where
+      he collected numerous national titles and also won the Champions League in
+      1995. After spells with Juventus and Fulham, he again won the Champions League
+      and 4 Premier League titles with Manchester United. Despite 130 caps for the
+      Dutch national team, he did not win a title with the national team.
+    playerPhoto: {fileID: 21300000, guid: b48e4846d0c011a479528f891b2352d2, type: 3}
+  - playerType: 3
+    id: 1
+    playerName: Iker Casillas
+    playerInfo: Iker Casillas' record is impressive both for club and selection.
+      Arriving from Real Madrid's training center, he quickly established himself
+      as a starter and won 5 Spanish Championships, 2 Copa del Reys and 3 Champions
+      Leagues with Casa Blanca. Casillas is also Spain's biggest player with 167
+      caps. He is one of the players who quickly won Euro 2008, World Cup 2010 and
+      Euro 2012. His saves are often crucial and allow Spain to often finish their
+      matches without conceding a single goal.
+    playerPhoto: {fileID: 21300000, guid: 93f0974304ce8fc48ac35fc177db8284, type: 3}
+  - playerType: 3
+    id: 2
+    playerName: Peter Schmeichel
+    playerInfo: 'Peter Schmeichel is one of the best goalkeepers of the 90s. Spotted
+      by the general public during Euro 1992, he played an important role in Denmark''s
+      surprise victory with his numerous saves. With 129 caps, he became the most
+      capped Danish player in history. An iconic Manchester United goalkeeper, he
+      accumulated titles during his 8 years with the Red Devils: 5 Premier League
+      titles, 3 FA Cups and most notably the Champions League in his final year at
+      the club in 1999.'
+    playerPhoto: {fileID: 21300000, guid: 8486788dc34f9984ebc1338aab634445, type: 3}
+  - playerType: 3
+    id: 3
+    playerName: Oliver Kahn
+    playerInfo: A very authoritarian goalkeeper with a strong character, Oliver Kahn
+      was perhaps the best goalkeeper in the world of his time. The German goalkeeper
+      is a worker with a steely mind, capable of always being at peak concentration
+      during matches. His incredible reflexes and relaxation made him one of the
+      best goalkeepers of all time. With Bayern Munich he won 9 national titles,
+      as well as 6 German Cups and a UEFA Cup. After losing the Champions League
+      final in 1999, he finally won the trophy in 2001. In the final, he, in particular,
+      stopped 3 shots on goal and played a big role in his team's victory. Oliver
+      Kahn was voted Best Player of the 2002 World Cup (a first for a goalkeeper),
+      despite losing to Ronaldo of Brazil in the final.
+    playerPhoto: {fileID: 21300000, guid: 11b265f32018f124ab400f8c3b04fc35, type: 3}
+  - playerType: 3
+    id: 4
+    playerName: Gianluigi Buffon
+    playerInfo: Now 40, Buffon is a legend and an example of longevity. His consistency
+      at the top level for over two decades places him among the best goalkeepers
+      in history. He made his debut at Parma, with whom he won the UEFA Cup and Italian
+      Cup in 1999. He then became a legendary Juventus goalkeeper in 2001 and would
+      remain so for almost 17 years. Buffon would win 10 Serie A and 4 Italian Cups
+      with the Turin club, only the Champions League eluding him despite 3 finals
+      in 2003, 2015 and 2017. He is also the most successful player in the Italian
+      selection (176 matches), with whom he participated in 4 European Championships
+      and 5 World Cups, including the one won in 2006 against France.
+    playerPhoto: {fileID: 21300000, guid: 7c16e4f35bdf6e2448a5e90ff3b02efb, type: 3}
+  - playerType: 3
+    id: 5
+    playerName: Manuel Neuer
+    playerInfo: Manuel Neuer is one of the best goalkeepers of this generation. He
+      revolutionized the goalkeeper position, placing very high in the rankings and
+      being much more involved in the game. His runs outside the box and ease with
+      the ball on his feet almost make him look like a libero. Neuer is still active,
+      but he is already a legend of the German team and Bayern Munich, one of the
+      best European clubs in history. As part of the Bavarian club, the German goalkeeper
+      became the German champion 8 times and won the Champions League twice in 2013
+      and 2020. Neuer is also enjoying an excellent career with the national team.
+      After failing in the World Cup semi-finals in 2010 and the Euros in 2012, he
+      finally won the World Cup in 2014. With 10 high-level seasons in Bayern and
+      98 caps for Germany, Neuer is one of the best goalkeepers in history.
+    playerPhoto: {fileID: 21300000, guid: 1626d2dad92eb934aa8e7b527f03ac45, type: 3}
+  - playerType: 3
+    id: 6
+    playerName: Lev Yashin
+    playerInfo: "Lev Yashin is perhaps the best goalkeeper of all time. He is the
+      only goalkeeper in football history to win the Ballon d'Or (1963). He revolutionized
+      the goalkeeping career with his superb performances and new style of play which
+      led to him being named the greatest goalkeeper of the 20th century by FIFA.
+      Lev Yashin leads the USSR to final victory at the 1956 Olympics and Euro 1960.
+      The Russian goalkeeper also helps his team reach the semi-finals of the 1966
+      World Cup. But Yashin has a long career, strewn with titles at his club Dynamo.
+      \u201CBlack Spider,\u201D as he was called, played 365 matches with Dynamo
+      Moscow and won the USSR championship 4 times. He has more than 150 penalties
+      and 270 clean sheets in his career. Lev Yashin was also voted the best goalkeeper
+      in Europe 9 times between 1956 and 1966."
+    playerPhoto: {fileID: 21300000, guid: 1058a008e52fced4b972e2f157b1f68a, type: 3}
+  currentItem:
+    playerType: 3
+    id: 6
+    playerName: Lev Yashin
+    playerInfo: "Lev Yashin is perhaps the best goalkeeper of all time. He is the
+      only goalkeeper in football history to win the Ballon d'Or (1963). He revolutionized
+      the goalkeeping career with his superb performances and new style of play which
+      led to him being named the greatest goalkeeper of the 20th century by FIFA.
+      Lev Yashin leads the USSR to final victory at the 1956 Olympics and Euro 1960.
+      The Russian goalkeeper also helps his team reach the semi-finals of the 1966
+      World Cup. But Yashin has a long career, strewn with titles at his club Dynamo.
+      \u201CBlack Spider,\u201D as he was called, played 365 matches with Dynamo
+      Moscow and won the USSR championship 4 times. He has more than 150 penalties
+      and 270 clean sheets in his career. Lev Yashin was also voted the best goalkeeper
+      in Europe 9 times between 1956 and 1966."
+    playerPhoto: {fileID: 21300000, guid: 1058a008e52fced4b972e2f157b1f68a, type: 3}
