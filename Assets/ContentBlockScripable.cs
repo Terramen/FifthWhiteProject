@@ -79,7 +79,7 @@ public class ContentBlockScripable : ScriptableObject
 }
 
 public enum PlayerType {
-    FORWARD, MIDFIELDER, DEFENDER, GOALKEEPER
+    FORTUNA
 }
 
 [System.Serializable]
@@ -89,4 +89,5 @@ public class ItemModel {
     public string playerName;
     public string playerInfo;
     public Sprite playerPhoto;
+    public bool PhotoIncluded => playerPhoto != null;
 }
