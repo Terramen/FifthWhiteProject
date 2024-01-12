@@ -1,0 +1,168 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 87c634d33705176469dcdb72a6b5da05, type: 3}
+  m_Name: Jail
+  m_EditorClassIdentifier: 
+  fsdfsdfsdf:
+  - include: 0
+    id: 0
+    ytryrtyr: Rules of Wheel of Fortune
+    rwersdfsdfsdf: The main aim of the game is to solve the word puzzle and gain
+      more money than all the other players. The game is played with a special wheel
+      with 24 segments that determine the dollar value of the called letters. Before
+      the show is taped, players draw special colored strips that stand for their
+      positions by the wheel. Each game starts with a host naming a category of the
+      puzzle, which can be anything from a Thing to Novelty categories.
+    hkhjetertet: {fileID: 0}
+  - include: 0
+    id: 1
+    ytryrtyr: Rules of Wheel of Fortune
+    rwersdfsdfsdf: Players spin the wheel one by one naming the letters to guess
+      the puzzle. If some player thinks he knows the word he can use the Toss up
+      and buzz in at any time in the game to solve it. If the guess is correct he
+      goes on to the next round and gets a prize of $1000 for the first round and
+      $2000 for the second. Also, the second Toss up gives a player the right to
+      start round 1. The player to his/her left starts Round 2 and the last player
+      starts the 3rd Round. If the Toss-up has not been won by any contestants, or
+      if all the letters have been revealed without a Toss-up, no cash is won.
+    hkhjetertet: {fileID: 21300000, guid: 343c1479a664d9549a00bd92e2928e6b, type: 3}
+  - include: 0
+    id: 2
+    ytryrtyr: Wheel
+    rwersdfsdfsdf: Wild card - wild card can be used in two different ways. The first
+      is to choose a second consonant for the same value as the segment he is on.
+      The second is to use it in the bonus round to pick an extra consonant, if he
+      of course makes it to the bonus round. Million Dollar Wedge - this is a special
+      wedge placed on the wheel for the first three rounds. This wedge is usually
+      surrounded by bankrupt wedges on both sides. If it is not won during first
+      three rounds, it is removed from the table after the third round. If the player
+      claims this wedge, he has to avoid Bankrupt until the end of the game, win
+      the round and finish as the game champion. This wedge will be placed on the
+      bonus wheel instead of the $100,000 envelope. Bankrupt - (black) special segment
+      that costs the player all the money and prizes won in that round, any Wild
+      cards and the Million Dollar Wedge. There is one Bankrupt segment in the 1st
+      round, and 2 in the 2nd and 3rd.
+    hkhjetertet: {fileID: 21300000, guid: 75e79ecf87e479148af8a61db56307d1, type: 3}
+  - include: 0
+    id: 3
+    ytryrtyr: Segments
+    rwersdfsdfsdf: Cash - if the guess is correct, the player gets the amount of
+      cash written on the segment multiplied by the number of times that letter appears
+      in the puzzle. Prizes and Gifts - in order to obtain the prize offered in that
+      segment, the player has to guess a consonant correctly. Usually the prize is
+      added to the wheel at the start of Round 1 and taken away if no one has won
+      it before Round 4 starts. The cash value of the prizes and gift tags is announced
+      at the beginning of the game. Free Play - this sector allows the player to
+      pick a free vowel or to buy a consonant for $500. If the player is wrong, no
+      penalty is used and player resumes his turn.
+    hkhjetertet: {fileID: 0}
+  - include: 0
+    id: 4
+    ytryrtyr: Segments
+    rwersdfsdfsdf: Wild card - wild card can be used in two different ways. The first
+      is to choose a second consonant for the same value as the segment he is on.
+      The second is to use it in the bonus round to pick an extra consonant, if he
+      of course makes it to the bonus round. Million Dollar Wedge - this is a special
+      wedge placed on the wheel for the first three rounds. This wedge is usually
+      surrounded by bankrupt wedges on both sides. If it is not won during first
+      three rounds, it is removed from the table after the third round. If the player
+      claims this wedge, he has to avoid Bankrupt until the end of the game, win
+      the round and finish as the game champion. This wedge will be placed on the
+      bonus wheel instead of the $100,000 envelope. Bankrupt - (black) special segment
+      that costs the player all the money and prizes won in that round, any Wild
+      cards and the Million Dollar Wedge. There is one Bankrupt segment in the 1st
+      round, and 2 in the 2nd and 3rd.
+    hkhjetertet: {fileID: 0}
+  - include: 0
+    id: 5
+    ytryrtyr: Vovels
+    rwersdfsdfsdf: You have probably noticed, that players that do not get a penalty
+      on spinning the wheel have the chance to name a consonant. Vowels can be bought
+      for extra cash. The cost of a vowel is usually $250 and if the player is wrong
+      the money is still taken from the account. Players are allowed to buy several
+      vowels at once if they wish. If the word does not contain any more vowels,
+      the host will tell the players about it and vice versa, if the word has only
+      vowels left, the players will be offered to buy them.
+    hkhjetertet: {fileID: 0}
+  - include: 0
+    id: 6
+    ytryrtyr: Solving the Puzzle
+    rwersdfsdfsdf: Players that try to solve the puzzle may do this during their
+      turn after buying a vowel or naming a letter. Any incorrect guesses cost the
+      player a turn. The player that solves the puzzle is the only one who keeps
+      all the money won in this round. If the money amounts to less than $1000, it
+      is increased to the minimum game amount of $1000. When the player wins the
+      round he is offered the chance to take the Bonus solution. This solution is
+      a question associated with the puzzle itself and if the player solves it he
+      gets extra $3,000. The game may have a Prize Puzzle that awards the winner
+      a trip.
+    hkhjetertet: {fileID: 0}
+  - include: 0
+    id: 7
+    ytryrtyr: Solving the Puzzle
+    rwersdfsdfsdf: There is an extra prize called a SPIN ID. This is a prize that
+      may be granted to one of the non-players of the "Wheel Watchers Club". Viewers
+      who have signed up at the game website receive a "Special Prize Identification
+      Number" (S.P.I.N.). The number is revealed in the game and the viewer with
+      the exact same number has exactly 24 hours to claim for it at the website.
+      The prize may be cash or a car like that won by a player in the studio. If
+      the winner has a Sony card, he will be granted an extra $50,000.
+    hkhjetertet: {fileID: 21300000, guid: 12142cf6b2c37d24589ebc7dd216bf14, type: 3}
+  - include: 0
+    id: 8
+    ytryrtyr: Final Spin
+    rwersdfsdfsdf: The final spin also known as the Speed up round is played if the
+      game is running short and there is no more time. At some point in the game
+      a bell rings to indicate this and the hosts announces that this is the final
+      spin of the wheel. From this point on the consonants are worth $1000 and vowels
+      are free. The players name letters one by one and if the guess is correct,
+      the player has 3 seconds to guess the word.
+    hkhjetertet: {fileID: 21300000, guid: 340b713341d6aa2419377cba3262d3f3, type: 3}
+  - include: 0
+    id: 9
+    ytryrtyr: The End
+    rwersdfsdfsdf: The final spin also known as the Speed up round is played if the
+      game is running short and there is no more time. At some point in the game
+      a bell rings to indicate this and the hosts announces that this is the final
+      spin of the wheel. From this point on the consonants are worth $1000 and vowels
+      are free. The players name letters one by one and if the guess is correct,
+      the player has 3 seconds to guess the word.
+    hkhjetertet: {fileID: 21300000, guid: 426e5c98abdccff4b8715a3e2832e596, type: 3}
+  - include: 0
+    id: 10
+    ytryrtyr: Bonus Rounds
+    rwersdfsdfsdf: The final spin also known as the Speed up round is played if the
+      game is running short and there is no more time. At some point in the game
+      a bell rings to indicate this and the hosts announces that this is the final
+      spin of the wheel. From this point on the consonants are worth $1000 and vowels
+      are free. The players name letters one by one and if the guess is correct,
+      the player has 3 seconds to guess the word.
+    hkhjetertet: {fileID: 21300000, guid: f1a6b828963339440b8cb51cf90f608b, type: 3}
+  - include: 0
+    id: 11
+    ytryrtyr: Special games
+    rwersdfsdfsdf: Some shows may be for two-player teams, when all the basic wins
+      (as consolation prize or a car) are doubled and players play in a team of two
+      but as one player. Another type of a special game is one with celebrities as
+      guests. If the contestants win- they take the money and prizes, but if the
+      celebrity wins - he/she donates the money and prizes to charity.
+    hkhjetertet: {fileID: 0}
+  jsjfsjdfjs:
+    include: 0
+    id: 11
+    ytryrtyr: Special games
+    rwersdfsdfsdf: Some shows may be for two-player teams, when all the basic wins
+      (as consolation prize or a car) are doubled and players play in a team of two
+      but as one player. Another type of a special game is one with celebrities as
+      guests. If the contestants win- they take the money and prizes, but if the
+      celebrity wins - he/she donates the money and prizes to charity.
+    hkhjetertet: {fileID: 0}

@@ -1334,9 +1334,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 77df4806af7c38047888b335a2efeb84, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  textComponent: {fileID: 260106296}
-  content: {fileID: 320030729}
-  rect: {fileID: 490397326}
+  sfsdfsdfsdf: {fileID: 260106296}
+  eqeqdasdasd: {fileID: 490397326}
+  jhkhjjtur: {fileID: 320030729}
 --- !u!1 &519420028
 GameObject:
   m_ObjectHideFlags: 0
@@ -2447,7 +2447,7 @@ MonoBehaviour:
         m_CallState: 2
       - m_Target: {fileID: 490397329}
         m_TargetAssemblyTypeName: CurrentTextSize, Assembly-CSharp
-        m_MethodName: CheckTextBlock
+        m_MethodName: Jrweuruasudf
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}

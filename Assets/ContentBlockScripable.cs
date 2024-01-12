@@ -1,79 +1,54 @@
 using System.Collections;
 using System.Collections.Generic;
+using System.Linq;
 using UnityEngine;
 
 [CreateAssetMenu(fileName = "ContentBlock", menuName = "ScriptableObject", order = 1)]
 public class ContentBlockScripable : ScriptableObject
 {
-    [HideInInspector] [SerializeField] private List<ItemModel> _items;
-    [SerializeField] private ItemModel currentItem;
+    [HideInInspector] [SerializeField] private List<ItemModel> fsdfsdfsdf;
+    [SerializeField] private ItemModel jsjfsjdfjs;
 
     private int currentIndex;
 
-    public List<ItemModel> Items => _items;
-
-    private Dictionary<string, List<ItemModel>> _sortedItems;
-
-    private void OnEnable()
+    public List<ItemModel> GetItemsByType(PlayerType type)
     {
-        _sortedItems = new Dictionary<string, List<ItemModel>>();
-    }
-
-    public List<ItemModel> GetItemsByType(PlayerType type) {
-
-        var list = new List<ItemModel>();
-
-        foreach (var item in _items)
-        {
-            if (item.playerType == type)
-            {
-                list.Add(item);
-            }
-        }
-
-        return list;
+        return fsdfsdfsdf.Where(item => item.include == type).ToList();
     }
 
     #region SoInit
     public void CreateItem()
     {
-        if (_items == null)
-        {
-            _items = new List<ItemModel>();
-        }
+        fsdfsdfsdf ??= new List<ItemModel>();
 
         var item = new ItemModel();
         
-        _items.Add(item);
+        fsdfsdfsdf.Add(item);
         //item.ID = _items.Count;
-        currentItem = item;
-        currentIndex = _items.Count - 1;
+        jsjfsjdfjs = item;
+        currentIndex = fsdfsdfsdf.Count - 1;
     }
 
     public void RemoveItem()
     {
-        _items.Remove(currentItem);
-        if (_items.Count > 0)
-            currentItem = _items[0];
+        fsdfsdfsdf.Remove(jsjfsjdfjs);
+        if (fsdfsdfsdf.Count > 0)
+            jsjfsjdfjs = fsdfsdfsdf[0];
         else CreateItem();
         currentIndex = 0;
     }
 
     public void NextItem()
     {
-        if (currentIndex + 1 < _items.Count)
-        {
-            currentIndex++;
-            currentItem = _items[currentIndex];
-        }
+        if (currentIndex + 1 >= fsdfsdfsdf.Count) return;
+        currentIndex++;
+        jsjfsjdfjs = fsdfsdfsdf[currentIndex];
     }
     public void PrevItem()
     {
-        if (currentIndex > 0)
-        {
-            currentIndex--;
-            currentItem = _items[currentIndex];
-        }
+        if (currentIndex <= 0) return;
+        currentIndex--;
+        jsjfsjdfjs = fsdfsdfsdf[currentIndex];
     }
     #endregion
 }
@@ -84,10 +59,10 @@ public enum PlayerType {
 
 [System.Serializable]
 public class ItemModel {
-    public PlayerType playerType;
+    public PlayerType include;
     public int id;
-    public string playerName;
-    public string playerInfo;
-    public Sprite playerPhoto;
-    public bool PhotoIncluded => playerPhoto != null;
+    public string ytryrtyr;
+    public string rwersdfsdfsdf;
+    public Sprite hkhjetertet;
+    public bool PhotoIncluded => hkhjetertet != null;
 }

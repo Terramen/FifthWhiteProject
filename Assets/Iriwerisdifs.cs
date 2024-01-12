@@ -2,14 +2,14 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class FakeLoading : MonoBehaviour
+public class Iriwerisdifs : MonoBehaviour
 {
     private void Awake() {
-        StartCoroutine(MyCoroutine());
+        StartCoroutine(HrertJrwersdf());
     }
-    IEnumerator MyCoroutine()
+    IEnumerator HrertJrwersdf()
     {
-        yield return new WaitForSeconds(0.8f);
+        yield return new WaitForSeconds(0.9f);
 
         gameObject.SetActive(false);
     }

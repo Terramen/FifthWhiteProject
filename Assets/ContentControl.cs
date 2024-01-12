@@ -16,8 +16,8 @@ public class ContentControl : MonoBehaviour
     [SerializeField] private GameObject _go;
     [SerializeField] private GameObject _go2;
 
-    private List<ItemModel> _currentList;
-    private int _currentId;
+    private List<ItemModel> fsdfjsjd;
+    private int roerosdf;
 
     private float _defaultHeight;
     private float _yPosition;
@@ -33,39 +33,39 @@ public class ContentControl : MonoBehaviour
 
     public void ClickNext()
     {
-        if (_currentId == _currentList.Count - 1)
+        if (roerosdf == fsdfjsjd.Count - 1)
         {
-            _currentId = 0;
+            roerosdf = 0;
             _go.SetActive(false);
             _go2.SetActive(true);
             return;
         }
 
-        _currentId++;
+        roerosdf++;
         LoadBlock();
     }
 
     public void LoadList(int id)
     {
-        _currentId = 0;
+        roerosdf = 0;
 
         PlayerType type = (PlayerType)id;
-        _currentList = _script.GetItemsByType(type);
+        fsdfjsjd = _script.GetItemsByType(type);
     }
 
     public void LoadBlock()
     {
-        _playerNameText.text = _currentList[_currentId].playerName;
+        _playerNameText.text = fsdfjsjd[roerosdf].ytryrtyr;
         
-        _playerNamePhoto.sprite = _currentList[_currentId].playerPhoto;
-        _playerInfoText.text = _currentList[_currentId].playerInfo;
+        _playerNamePhoto.sprite = fsdfjsjd[roerosdf].hkhjetertet;
+        _playerInfoText.text = fsdfjsjd[roerosdf].rwersdfsdfsdf;
 
         //float bottom = yPosition - height * 0.5f;
-        _globScrollRect.offsetMin = _currentList[_currentId].PhotoIncluded
+        _globScrollRect.offsetMin = fsdfjsjd[roerosdf].PhotoIncluded
             ? new Vector2(_globScrollRect.offsetMin.x, _yPosition)
             : new Vector2(_globScrollRect.offsetMin.x, 0);
         
-        _playerNamePhoto.gameObject.SetActive(_currentList[_currentId].PhotoIncluded);
+        _playerNamePhoto.gameObject.SetActive(fsdfjsjd[roerosdf].PhotoIncluded);
         if(_playerNamePhoto.sprite == null) return;
         _playerNamePhoto.SetNativeSize();
         
