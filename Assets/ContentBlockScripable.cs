@@ -11,7 +11,7 @@ public class ContentBlockScripable : ScriptableObject
 
     private int currentIndex;
 
-    public List<ItemModel> GetItemsByType(PlayerType type)
+    public List<ItemModel> GetItemsByType(Nretetfs type)
     {
         return fsdfsdfsdf.Where(item => item.include == type).ToList();
     }
@@ -53,13 +53,13 @@ public class ContentBlockScripable : ScriptableObject
     #endregion
 }
 
-public enum PlayerType {
+public enum Nretetfs {
     FORTUNA
 }
 
 [System.Serializable]
 public class ItemModel {
-    public PlayerType include;
+    public Nretetfs include;
     public int id;
     public string ytryrtyr;
     public string rwersdfsdfsdf;

@@ -7,14 +7,14 @@ using UnityEngine.UI;
 
 public class ContentControl : MonoBehaviour
 {
-    [SerializeField] private TMP_Text _playerNameText;
-    [SerializeField] private TMP_Text _playerInfoText;
-    [SerializeField] private Image _playerNamePhoto;
+    [SerializeField] private TMP_Text dfgdfgdfgd;
+    [SerializeField] private TMP_Text werwersfsdf;
+    [SerializeField] private Image khktutyurty;
 
-    [SerializeField] private ContentBlockScripable _script;
+    [SerializeField] private ContentBlockScripable rtertergdfgdfg;
 
-    [SerializeField] private GameObject _go;
-    [SerializeField] private GameObject _go2;
+    [SerializeField] private GameObject qweqwasfsfdsdf;
+    [SerializeField] private GameObject uikhjfhfghfh;
 
     private List<ItemModel> fsdfjsjd;
     private int roerosdf;
@@ -36,46 +36,46 @@ public class ContentControl : MonoBehaviour
         if (roerosdf == fsdfjsjd.Count - 1)
         {
             roerosdf = 0;
-            _go.SetActive(false);
-            _go2.SetActive(true);
+            qweqwasfsfdsdf.SetActive(false);
+            uikhjfhfghfh.SetActive(true);
             return;
         }
 
         roerosdf++;
-        LoadBlock();
+        Htertsfsdf();
     }
 
-    public void LoadList(int id)
+    public void Gtrertsdfgdfgdfg(int id)
     {
         roerosdf = 0;
 
-        PlayerType type = (PlayerType)id;
-        fsdfjsjd = _script.GetItemsByType(type);
+        Nretetfs type = (Nretetfs)id;
+        fsdfjsjd = rtertergdfgdfg.GetItemsByType(type);
     }
 
-    public void LoadBlock()
+    public void Htertsfsdf()
     {
-        _playerNameText.text = fsdfjsjd[roerosdf].ytryrtyr;
+        dfgdfgdfgd.text = fsdfjsjd[roerosdf].ytryrtyr;
         
-        _playerNamePhoto.sprite = fsdfjsjd[roerosdf].hkhjetertet;
-        _playerInfoText.text = fsdfjsjd[roerosdf].rwersdfsdfsdf;
+        khktutyurty.sprite = fsdfjsjd[roerosdf].hkhjetertet;
+        werwersfsdf.text = fsdfjsjd[roerosdf].rwersdfsdfsdf;
 
         //float bottom = yPosition - height * 0.5f;
         _globScrollRect.offsetMin = fsdfjsjd[roerosdf].PhotoIncluded
             ? new Vector2(_globScrollRect.offsetMin.x, _yPosition)
             : new Vector2(_globScrollRect.offsetMin.x, 0);
         
-        _playerNamePhoto.gameObject.SetActive(fsdfjsjd[roerosdf].PhotoIncluded);
-        if(_playerNamePhoto.sprite == null) return;
-        _playerNamePhoto.SetNativeSize();
+        khktutyurty.gameObject.SetActive(fsdfjsjd[roerosdf].PhotoIncluded);
+        if(khktutyurty.sprite == null) return;
+        khktutyurty.SetNativeSize();
         
-        float w = _playerNamePhoto.sprite.rect.width / _playerNamePhoto.pixelsPerUnit;
-        float h = _playerNamePhoto.sprite.rect.height / _playerNamePhoto.pixelsPerUnit;
+        float w = khktutyurty.sprite.rect.width / khktutyurty.pixelsPerUnit;
+        float h = khktutyurty.sprite.rect.height / khktutyurty.pixelsPerUnit;
 
-        var rect = _playerNamePhoto.rectTransform.sizeDelta;
+        var rect = khktutyurty.rectTransform.sizeDelta;
         w *= MULTIPLIER;
         h *= MULTIPLIER;
-        _playerNamePhoto.rectTransform.sizeDelta = new Vector2(w, h);
+        khktutyurty.rectTransform.sizeDelta = new Vector2(w, h);
     }
 
     public void Exit()
